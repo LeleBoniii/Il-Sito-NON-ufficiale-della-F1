@@ -1,0 +1,294 @@
+@font-face {
+    font-family: "formula";
+    src: url(../Fonts/Formula1-Regular.otf);
+}
+body > div{
+    overflow: hidden;
+    padding: 0px; 
+    font-family: "formula";
+    text-align: justify;
+    color: white;
+    height: 800px;
+    background-color: #8E1616;
+}
+body{
+    margin: 0;
+}
+.hidescroll::-webkit-scrollbar {
+    display: none;
+}
+.parallaximg1 {
+   
+     /* The image used */
+     background-image: url("../Imgs/img1.jpg");
+    
+     /* Set a specific height */
+     min-height: 500px;
+
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+}
+.parallaximg2 {
+    
+    /* The image used */
+    background-image: url("../Imgs/img2.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaximg3 {
+   
+    /* The image used */
+    background-image: url("../Imgs/img3.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaximg4 {
+    
+    /* The image used */
+    background-image: url("../Imgs/img4.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaximg5 {
+   
+    /* The image used */
+    background-image: url("../Imgs/img5.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ .caption div.border {
+     background-color: #1D1616;
+     color: #ffff;
+     padding: 18px;
+     font-size: 25px;
+     letter-spacing: 10px;
+     border-radius: 50px;
+
+
+    }
+
+ .caption {
+     position: absolute;
+     left: 0;
+     top: 45%;
+     width: 100%;
+     text-align: center;
+     color: #1D1616;}
+
+
+
+
+
+
+#come_è_fatta>img {
+
+    height: 250px;
+    width: 500;
+
+}
+
+
+#la_F1>img{
+    margin-top: 70px;
+
+}
+
+#come_funziona>img{
+    margin-top: 45px;
+}
+#storia>img{
+    margin-top: 25px;
+    height: 250px;
+        width: 500px;
+}
+
+
+
+
+
+img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+    border-color: #1D1616;
+    border-width: 5px;
+    border-style: solid;
+    transition: linear;
+    transition-duration: 200ms;
+    opacity: 70%;
+    
+}
+img:hover{
+   transform: scale(1.1);
+   opacity: initial;
+}
+iframe{
+    transition: linear;
+    transition-duration: 200ms;
+    border-radius: 20px;
+    border-color: #1D1616;
+    border-width: 5px;
+    border-style: solid;
+}
+iframe:hover{
+    transform: scale(1.1);
+}
+
+p, h2{
+    text-align: center;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+p{
+    line-height: 30px;
+    text-align: justify;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.duecolonne {
+    columns: 2;
+        column-gap: 20px;
+        column-rule-width: 2px;
+        column-rule-style: solid;
+        
+        column-rule-color: #eeeeee;
+        /*metto il margine sotto per allontanare il imgs*/
+      margin-bottom: 10px;
+}
+
+
+.pie_pagina {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    top: 600px;
+    width: 100%;
+    height: 100%;
+    background-color: #1D1616;
+    color: white;
+    
+}
+.pie_pagina > div > p{
+    text-align: center;
+}
+.pie_pagina>div{
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.duecolonne_pie {
+    columns: 2;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+#instagram,#discord{
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
+    border-style: hidden;
+}
+
+#iframe_div{   
+    margin-top: 75px; 
+    display: flex;
+    justify-content: center;
+}
+
+#sommario>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    flex-grow: 1;
+}
+
+#sommario>ul>li {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+
+#sommario {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+    padding: 0;
+    height: 50px;
+    background-color: #1D1616;
+    color: white;
+    letter-spacing: 5px;
+    z-index: 2;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+   
+}
+
+a,
+a:hover {
+   
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+a:visited {
+    color: inherit;
+    
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
